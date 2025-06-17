@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image:url("./images/login-.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+
+/* div{
+    border: 2px  solid white;
+} */
+
+.login_box{
+     height: 500px;
+     width: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     align-content: space-between ;
+     background: #2f2f2e65;
+}
+
+.login-content{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content:space-evenly;
+}
+
+.login-content div{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    color:#7cf03d;
+    text-shadow: 0 0 5px#0a1107;
+    text-transform:capitalize;
+    font-size: 20px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.input_name{
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.passkey{
+    display: flex;
+    justify-content: center;
+
+}
+
+.input_passkey{
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    background: transparent;
+}
+
+i{
+    position:relative;
+    right: 40px;
+    color: whitesmoke;
+}
+
+input{
+    text-align:center;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    border: 2px  solid white;
+
+
+}
+
+input::placeholder{
+    font-weight: 700;
+    color: white;
+}
+
+.content .input_content{
+    position: relative;
+    right: 70px;
+    font-size: 18px;
+    color: #e9fe08;
+}
+
+.content a{
+    text-decoration: none;
+    color:#e9fe08;
+    font-size: 18px;
+}
+
+.content .input_content input{
+    position: relative;
+    right: 5px;
+}
+
+.login button{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    background: linear-gradient(60deg ,#7cf03d, #e9fe08,rgb(252, 120, 120));
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.recovery{
+    font-size: 20px;
+    color: #e9fe08;
+}
+
+.recovery a{
+    color: aliceblue;
+}

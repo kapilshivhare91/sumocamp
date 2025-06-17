@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image bar</title>
+    <link rel="stylesheet" href="./image_slider.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+
+  <!-- navigation bar--------- -->
+ <nav class="navbar">
+  <a href="#" class="logo">sumocamp</a>
+  <ul>
+     <li class="active"><a href="#"> home </a></li>
+     <li><a href="#"> about </a></li>
+     <li><a href="#"> camp </a></li>
+     <li><a href="#"> services </a></li>
+     <li><a href="#"> contact </a></li>
+  </ul>
+</nav>
+
+<!-- home page of ---------------------------->
+<div>
+  <div class="bar-animation">
+    <div class="bar" style="--i:6; "></div> 
+    <div class="bar" style="--i:5; "></div>
+    <div class="bar" style="--i:4; "></div> 
+    <div class="bar" style="--i:3; "></div>
+    <div class="bar" style="--i:2; "></div>
+    <div class="bar" style="--i:1; "></div>
+  </div>
+  
+    
+  <section class="home">
+  <div class="homeinfo">
+      <h1>sumocamp</h1>
+      <h2> we manage
+        <span style="--i:4;"  data-text="tech-fest"            >tech-fest</span>
+        <span style="--i:3;"  data-text="coding-contast"       >coding-contast</span>
+        <span style="--i:2;"  data-text="sharc-tank"           >sharc-tank</span>
+        <span style="--i:1;"  data-text="crypto-currency-fest" >crypto-currency-fest</span>
+      </h2>
+      <p>We are organising a bot and AI/ML camp for all student irrespective of <br>their semestercollege and cg
+      <br> "Only matters is how much you are dedicated" </p>
+      <div class="tc">
+        <a href="#" class="downlord"> downlord T&C</a>
+        <div class="social_media">
+          <a href="#"><i class='bx bxl-github'></i> </a>
+          <a href="#"><i class='bx bxl-linkedin-square'></i> </a>
+          <a href="#"><i class='bx bxl-twitter'></i> </a>
+          <a href="#"><i class='bx bxl-instagram'></i> </a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <img src="./images/sumocamp1024.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+  
+
+<!-- ! IMAGE CARD CODE----------------->
+ <div class="wrapper">
+    <div class="container">
+        <input type="radio" name="slide" id="card1" checked>
+            <label for="card1"    class="card">
+                <div class="row">
+                <div class="num">1</div>
+                 <div class="desc">
+                   <h4>tiger</h4>
+                     <p>beauty of wild tiger</p>
+                 </div>              
+               </div>
+            </label>
+        
+
+            <input type="radio" name="slide" id="card2" >
+            <label for="card2"    class="card">
+                <div class="row">
+                    <div class="num">2</div>
+                     <div class="desc">
+                      <h4>digital tech</h4>
+                      <p>Get better every day</p>
+                     </div>
+                    </div>
+            </label>
+
+
+            <input type="radio" name="slide" id="card3" >
+            <label for="card3"    class="card">
+                <div class="row">
+                    <div class="num">3</div>
+                   <div class="desc">
+                      <h4>eagle</h4>
+                        <p>beauty of wild eagle</p>
+                    </div>
+                </div>
+            </label>
+
+            <input type="radio" name="slide" id="card4" >
+            <label for="card4"    class="card"> 
+                <div class="row">
+                 <div class="num">4</div>
+                    <div class="desc">
+                      <h4>New tech</h4>
+                      <p>new backbone of society</p>
+                    </div>
+                </div>
+        </label>
+    </div>
+</div>
+
+
+ <!-- code for events---------->
+<div class="function"> 
+  <div class="events">
+
+      <div for="event1" class="event">
+          <label  class="popup" >
+            <div class="text">
+                <h3>!craft-n-code!</h3>
+            </div>
+                <p>"participant are invided in prize poll of code"</p>
+                <a class="buttom" href="login_page.html">apply</a>
+          </label>
+      </div>
+
+      <div  for="event2" class="event">
+          <label   class="popup" >
+              <div class="text">
+                  <h3>!cyber-battle!</h3>
+                </div>
+                  <p>"participant are in battel of future"</p>
+                  <a class="buttom" href="login_page.html">apply</a>
+          </label>
+      </div>
+
+      <div for="event3" class="event">
+          <label  class="popup">
+              <div class="text">
+                  <h3>!build-a-bot!</h3>
+                </div>
+                  <p>"bot and participant are building each other"</p>
+                  <a  class="buttom"href="login_page.html">apply</a>
+          </label>
+      </div>
+
+      <div for="event4" class="event">
+             <label   class="popup" >
+                  <div class="text">
+                      <h3>!robo-race!</h3>
+                    </div>
+                      <p>"bots are runing behind the prize poll "</p>
+                      <a class="buttom" href="login_page.html">apply</a>
+              </label>
+      </div>
+
+  </div>
+</div>
+  <div class="popup">
+    <div class="img-container">
+        <div class="img">
+            <img src="./images/character1.png" >
+        </div>
+    </div>
+    <div class="img-container">
+        <div class="img">
+            <img src="../images/character2.png" >
+        </div>
+    </div>
+    <div class="img-container">
+        <div class="img">
+            <img src="./images/character3.png" >
+        </div>
+    </div>
+  </div>  
+</body>
+</html>
